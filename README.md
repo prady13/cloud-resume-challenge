@@ -25,6 +25,8 @@ Step 4: We will need to create an API that accepts requests from your web app an
 ** i used js to show a view counter on the website so everytime someone loads the page the view count increases by 1.
 ** the lambda function is connected to the dynamodb and we are using that function to fetch the view count from the table
 ** I've used python to write the lambda function code(api)
+** make sure the lambda function has the permission to get the item from dynamodb table
+
 
 the count is shown as below:
 <img width="1440" alt="Screenshot 2024-02-24 at 9 13 26 PM" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/744a96ec-f560-48bb-8d7f-18deddbdc272">
