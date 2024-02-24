@@ -6,3 +6,16 @@ Step 1: To create a S3 bucket to upload all the files of the website in the buck
 
 Step 2: Since we have blocked the public access on the bucket, we need to create a cloudfront distribution and a policy so that cloudfront can access the bucket files and provide a link which will be global and public.
 <img width="1440" alt="Step 2" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/2c8a1bdc-fc72-4fd9-a361-01bdd30146c8">
+
+
+It will be visible as this:
+<img width="1440" alt="Screenshot 2024-02-24 at 6 43 28 PM" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/29a5667b-cfb8-4592-84fe-6ea3485430b7">
+
+
+For this challenge we also need to use a custom DNS which people can buy through either Route 53 or several other websites. (but i did not buy a custom domain)
+
+Step 3: We have to create a DynamoDB table which will store the views count when the website has been visited.
+<img width="1440" alt="Step 3" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/e05a57e3-b8d4-4dd7-a5e8-d0a047231f99">
+create the table, setting the attributes.
+
+Step 4: We will need to create an API that accepts requests from your web app and communicates with the database. I suggest using AWS’s Lambda for this.
