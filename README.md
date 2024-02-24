@@ -19,3 +19,5 @@ Step 3: We have to create a DynamoDB table which will store the views count when
 create the table, setting the attributes.
 
 Step 4: We will need to create an API that accepts requests from your web app and communicates with the database. I suggest using AWS’s Lambda for this.
+<img width="1440" alt="Step 4" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/fa9d0019-ffe4-433d-9de8-5d8fcdf41b0a">
+*boto3 is a library used to interact with aws services
