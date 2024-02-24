@@ -18,6 +18,28 @@ Step 3: We have to create a DynamoDB table which will store the views count when
 <img width="1440" alt="Step 3" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/e05a57e3-b8d4-4dd7-a5e8-d0a047231f99">
 create the table, setting the attributes.
 
-Step 4: We will need to create an API that accepts requests from your web app and communicates with the database. I suggest using AWS’s Lambda for this.
+Step 4: We will need to create an API that accepts requests from your web app and communicates with the database. I suggest using AWS’s Lambda for this. We are not using an API gateway instead we are using fURLs provided by Lambda.
 <img width="1440" alt="Step 4" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/fa9d0019-ffe4-433d-9de8-5d8fcdf41b0a">
 *boto3 is a library used to interact with aws services
+
+** i used js to show a view counter on the website so everytime someone loads the page the view count increases by 1.
+** the lambda function is connected to the dynamodb and we are using that function to fetch the view count from the table
+** I've used python to write the lambda function code(api)
+
+the count is shown as below:
+<img width="1440" alt="Step 5" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/42420b8c-c389-4257-93f6-4481407cdce8">
+
+Step 6:
+
+
+
+
+
+
+
+
+
+
+
+
+
