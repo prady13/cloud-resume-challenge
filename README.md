@@ -29,7 +29,8 @@ Step 4: We will need to create an API that accepts requests from your web app an
 
 
 the count is shown as below:
-<img width="1440" alt="Screenshot 2024-02-24 at 9 13 26 PM" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/744a96ec-f560-48bb-8d7f-18deddbdc272">
+<img width="1418" alt="Screenshot 2024-02-24 at 9 13 26 PM" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/aaaaa6d5-2f01-4131-9099-41d3d1b877a9">
+
 <img width="1440" alt="Screenshot 2024-02-24 at 9 13 41 PM" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/57ce4e1f-d2be-453c-b924-4279fbf72746">
 
 
