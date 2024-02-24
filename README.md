@@ -27,7 +27,10 @@ Step 4: We will need to create an API that accepts requests from your web app an
 ** I've used python to write the lambda function code(api)
 
 the count is shown as below:
-<img width="1440" alt="Step 5" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/42420b8c-c389-4257-93f6-4481407cdce8">
+<img width="1440" alt="Screenshot 2024-02-24 at 9 13 26 PM" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/744a96ec-f560-48bb-8d7f-18deddbdc272">
+<img width="1440" alt="Screenshot 2024-02-24 at 9 13 41 PM" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/57ce4e1f-d2be-453c-b924-4279fbf72746">
+
+
 
 Step 6:
 
