@@ -38,6 +38,10 @@ the count is shown as below:
 Step 6:Now for source control we need to create a git repo and have a CI/CD front end, so that everytime we commit in git it gets pushed to the S3 bucket created on our AWS console.
 <img width="1440" alt="Screenshot 2024-02-24 at 11 06 46 PM" src="https://github.com/prady13/cloud-resume-challenge/assets/62207613/2de6f78c-46d4-4b94-9642-48c4d69f9cd3">
 
+Lastly what can be done is not to configure your API resources – the DynamoDB table, the API Gateway, the Lambda function – manually, by clicking around in the AWS console. 
+Instead, define them in an AWS Serverless Application Model (SAM) template and deploy them using the AWS SAM CLI. This is called “infrastructure as code” or IaC. It saves you time in the long run. Either CloudFormation or terraform can be used and its all done. :)
+
+![image](https://github.com/prady13/cloud-resume-challenge/assets/62207613/26b45b60-9b45-458b-ae94-d42bcdf72b30)
 
 
 
